@@ -12,5 +12,25 @@ Remember, it's self-paced so feel free to take a break! ☕️
 
 ---
 
+## Testing 🧪
+
+To exercise the backend API you'll need the development dependencies installed. From the repository root:
+
+```bash
+pip install -r requirements.txt    # includes pytest
+```
+
+Then run the test suite with pytest:
+
+```bash
+pytest -q
+```
+
+The `tests/` directory contains a set of FastAPI route tests that reset
+application state between cases. Coverage is minimal but demonstrates how
+to add new assertions as the API evolves.
+
+---
+
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
